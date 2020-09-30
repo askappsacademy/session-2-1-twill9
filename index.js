@@ -16,13 +16,10 @@ For extra credit, create a conditional that executes a message if the sum is ove
 ********************/
 
 // Your Solution:
-"use strict";
 
-function add(x, y) {
-    var x = 5(document.getElementById('x').value);
-    var y = 10(document.getElementById('y').value);
-
-    document.getElementById('result').innerHTML = x+y;
-    return false;
+function add(num1, num2) {
+  let result = num1 + num2;
+  console.log(result);
 }
-add(x, y)
+
+add(9,5);
