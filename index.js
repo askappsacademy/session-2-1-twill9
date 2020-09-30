@@ -16,6 +16,7 @@ For extra credit, create a conditional that executes a message if the sum is ove
 ********************/
 
 // Your Solution:
+// variables
 
 function add(num1, num2) {
   let result = num1 + num2;
